@@ -1,25 +1,27 @@
-Viewing a diff (or more FC) between two versions helped me spot the bugs easier by showing me where the two files differed and let me spot it easier.
+MISSING FIRST QUESTION
+
+	Viewing a diff (or more FC) between two versions helped me spot the bugs easier by showing me where the two files differed and let me spot it easier.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-When you have a bug that you can't find/figure out, having access to the history of the file allows you to go back to a recent version and compare to find the problem or at the very least, allows you to revert to that version.
+	When you have a bug that you can't find/figure out, having access to the history of the file allows you to go back to a recent version and compare to find the problem or at the very least, allows you to revert to that version.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
-Manually choosing when to commit enables you to commit at the right logical times as opposed to when it is done automatically, it may choose to save at time where you code won't even compile. For now, manually commiting is best since a computer doesn't know how to identify the correct time to commit.
+	Manually choosing when to commit enables you to commit at the right logical times as opposed to when it is done automatically, it may choose to save at time where you code won't even compile. For now, manually commiting is best since a computer doesn't know how to identify the correct time to commit.
 
 Why do you think some version control systems, like Git, allow saving multiple files on one commit, while others, like Google Docs, treat each file seperately?
 
-Often when you code, you make changes to multiple files (ex when changing the number of argument in a method) whereas when you're writting a paper, the changes you make affect only that page.
+	Often when you code, you make changes to multiple files (ex when changing the number of argument in a method) whereas when you're writting a paper, the changes you make affect only that page.
 
 How can you use the commands git log and git diff to view the history of files?
 
-git log shows you the commit history which includes date and time along with a commit id and a comment. You can then use git diff to compare two commits (using the ids) to view the lines that were added and removed
+	git log shows you the commit history which includes date and time along with a commit id and a comment. You can then use git diff to compare two commits (using the ids) to view the lines that were added and removed
 
 How might using version control make you more confident to make changes that could break something?
 
-It adds a lot of confidence since I would know that whatever changes that I would make could be reverted instantly. So I could play around with the code and not be worried about permanently breaking the code
+	It adds a lot of confidence since I would know that whatever changes that I would make could be reverted instantly. So I could play around with the code and not be worried about permanently breaking the code
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-I want to be able to use source control to write an android app.
+	I want to be able to use source control to write an android app.
